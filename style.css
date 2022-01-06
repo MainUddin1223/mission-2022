@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251, 251, 245);
+}
+
+.common-btn{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 30px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+/* intro section */
+.intro-div{
+    display: flex;
+}
+.modified-heading{
+    color: sandybrown;
+}
+.intro-text-div{
+    width: 40%;
+    margin: 10%;
+}
+.intro-text-div h1{
+    font-size: 65px;
+    font-family: 'Crimson Pro', serif;
+    border-left: 8px solid rgb(87, 136, 87);
+    padding-left:10px ;
+    color: rgb(47, 42, 42);
+}
+.intro-text-div p{
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.intro-img-div {
+    width: 40%;
+    margin-left: 5%;
+}
+.intro-img-div img{
+    width: 500px;
+}
+/* mission section */
+.mission-div h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Spectral', serif;
+    color: rgb(8, 28, 46);
+    padding: 15px;
+    margin-top: 15px;
+}
+.parant-mission-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.common-mission-div{
+    padding: 15px 40px;
+    color: rgb(42, 40, 40);
+    margin: 15px;
+    border-radius: 5px;
+    width: 380px;
+    box-shadow: 0 0 10px rgb(228, 220, 220);
+}
+.common-mission-div img{
+    width: 200px;
+    width: 250px;
+}
+.common-mission-div h2{
+    padding: 20px 0;
+}
+.common-mission-div p{
+    font-size: 20px;
+    text-align: justify;
+
+}
+.mission-bg{
+    background-color: rgb(233, 213, 187);
+}
+.vission-bg{
+    background-color: rgb(201, 217, 246);
+}
+.goals-bg{
+    background-color: rgb(243, 239, 179);
+}
+/* development-section */
+.parent-development-sec{
+    margin: 50px 0;
+    display: flex;
+}
+.common-doc {
+    width: 40%;
+    text-align: justify;
+}
+.common-doc h1{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.common-doc p{
+    font-size: 19px;
+    line-height: 22px;
+}
+.child-development-img-sec{
+    width: 35%;
+    margin-left: 7%;
+}
+
+.child-development-img-sec img{
+    width: 450px;
+    background-image: url('images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: left;background-size: 220px 220px;
+    background-position:left top;
+    padding-left: 10%;
+}
+/* project section */
+.parent-project-div{
+    margin: 50px 0;
+    display: flex;
+}
+.child-project-div{
+    margin-left: 10%;
+    width: 40%;
+}
+.child-project-img-sec{
+    width: 35%;
+    margin-left: 40px;
+}
+.child-project-img-sec img{
+    width: 450px;
+    background-image: url('images/shapes/shape-6.png');
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    background-position:right;
+    padding-right: 10%;
+}
+/* bonous section */
+.bonous-section{
+    padding: 30px 0;
+    margin: 5% 12% ;
+}
+.bonous-section h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.bonous-head-span{
+    color: tomato;
+    font-family: 'Caveat', cursive;
+}
+.bonous-parent-app{
+    display: flex;
+}
+.bonous-img {
+    width: 40%;
+}
+.bonous-img img{
+    width: 450px;
+    background-image: url('images/shapes/shape-5.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.bonous-text{
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+.bonous-text h1{
+    text-align: justify;
+}
+
+/* footer section */
+footer{
+    background-color: black;  
+    color: white;
+}
+footer h1{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.footer-year{
+    font-family: 'Caveat', cursive;
+    color: tomato;
+}
+footer p{
+    text-align: center;
+    font-size: 20px ;
+    padding: 10px;
+}

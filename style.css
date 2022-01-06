@@ -178,6 +178,11 @@ body{
 .bonous-text h1{
     text-align: justify;
 }
+.bonous-text p{
+    font-size: 19px;
+    line-height: 22px;
+    text-align: justify;
+}
 
 /* footer section */
 footer{
